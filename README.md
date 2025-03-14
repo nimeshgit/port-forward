@@ -18,7 +18,7 @@ The client connects to the server on port 9999 and sends a control message conta
 [Image SSH Tunneling Credits](https://www.ssh.com/academy/ssh/tunneling)
 
 
-### [Program.cs](file:///home/vadgama/Drive/GitHub/rnd/port-forwarding/server/Program.cs)
+### [Server Program.cs](file:///home/vadgama/Drive/GitHub/rnd/port-forwarding/server/Program.cs)
 
 Update the server to handle port forwarding requests and start a new local TCP listener for each request.
 
@@ -129,7 +129,7 @@ public class PortForwarder
 }
 ````
 
-### [Program.cs](file:///home/vadgama/Drive/GitHub/rnd/port-forwarding/client/Program.cs)
+### [Client Program.cs](file:///home/vadgama/Drive/GitHub/rnd/port-forwarding/client/Program.cs)
 
 Ensure the client keeps the connection alive and allows the server to handle port forwarding.
 
