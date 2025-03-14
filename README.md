@@ -2,7 +2,7 @@
 
 ![Port Forwarding](/server/doc/port_forwarding.png)
 
-There are many inspirations from linux kernel components / architecture and its ssh forwarding features from my clildhood :),
+There are many inspirations from linux kernel components / architecture and its ssh forwarding features from my clildhood :)
 
 
 I was doing one consulting project last year and I wanted such feature with oauth, 
