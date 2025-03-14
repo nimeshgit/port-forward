@@ -7,7 +7,7 @@ There are many inspirations from linux kernel components / architecture and its 
 
 I was doing one consulting project last year and I wanted such feature with oauth, 
 Here is the prototype I had developped with two console applications i.e. server and client that can do port forwarding.
-However this does not include oauth but this stack was proto-type and very useful to jump-start port-forwarding feature over tcp ip 
+However this does not include oauth but this proto-type stack is very useful to jump-start port-forwarding feature over tcp ip 
 for .net core #cross-platform application(s). 
 
 The server listens for control messages from the client on port 9999. When a control message is received, it starts a new `PortForwarder` instance to handle the port forwarding. The `PortForwarder` listens on the specified destination port and forwards traffic to the client's source port.
