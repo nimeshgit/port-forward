@@ -14,8 +14,8 @@ The server listens for control messages from the client on port 9999. When a con
 
 The client connects to the server on port 9999 and sends a control message containing the source port, destination host, and destination port. The client keeps the connection alive to ensure the server continues forwarding traffic.
 
-Image Credit : [https://www.ssh.com/academy/ssh/tunneling]
-Reference    : [https://ops-ml-architect.blogspot.com/]
+[Reference](https://ops-ml-architect.blogspot.com/)
+[Image SSH Tunneling Credits](https://www.ssh.com/academy/ssh/tunneling)
 
 
 ### [Program.cs](file:///home/vadgama/Drive/GitHub/rnd/port-forwarding/server/Program.cs)
